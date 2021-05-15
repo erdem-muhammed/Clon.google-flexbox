@@ -1,0 +1,107 @@
+*{
+	box-sizing: border-box;
+	font-family: arial,sans-serif;
+}
+body
+{
+	margin: 0;
+}
+.header
+{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+	padding: 10px 20px 0 20px;
+	height: 20vh;
+	font-size: 13px;
+}
+.header a
+{
+	text-decoration: none;
+	cursor: pointer;
+	margin:0 3px 0 3px;
+}
+.header a:hover
+{
+	text-decoration: underline;
+}
+
+.container
+{
+	width: 100vw;
+	height: 60vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.suchfeld
+{
+	width: 480px;
+	height: 40px;
+	margin: 20px 0 20px 0;
+	display: flex;
+	justify-content: space-around;
+	border: 1px solid #dfe1e5;
+	border-radius: 20px;
+}
+.suchfeld:hover
+{
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+.suchfeld img
+{
+	height: 25px;
+	padding: 10px 13px 0 13px;
+}
+.suchfeld input
+{
+	border: none;
+	outline: none;
+	width: 86%;
+	padding-bottom: 4px;
+}
+
+
+.button
+ {
+    margin-top: 15px;
+    padding: 5px 3px 5px 3px;
+ }
+
+ .button input
+ {
+    height: 36px; 
+    width: 120px;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    margin: 0 4px 0 4px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+ }
+ .button input:hover
+ {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+ .Untentext
+ {
+ 	margin-top: 30px;
+ 	font-size: 10px;
+ }
+ .Untentext a
+ {
+ 	margin: 0 2px 0 2px;
+ 	text-decoration: none;
+ 	color: blue;
+ }
+ .Untentext a:hover
+ {
+ 	text-decoration: underline;
+ }
